@@ -5,3 +5,6 @@ nav a[aria-current='page']{color:#e44414;font-weight:700}.callout{background:#04
 
 nav .brand{display:flex;align-items:center;gap:18px;max-width:390px;font-size:19px}nav .brand img{width:64px;height:90px;object-fit:contain;flex-shrink:0}@media(max-width:650px){nav .brand{font-size:18px}nav .brand img{width:50px;height:70px}}
 
+
+header .links{flex-wrap:wrap;gap:12px 22px}header .links a{white-space:nowrap}@media(max-width:900px){header nav{align-items:flex-start;flex-direction:column}}
+
